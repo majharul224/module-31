@@ -15,3 +15,5 @@ function fullName(first, last = 'Chowdhury') {
     const name = first + ' ' + last;
     return name;
 }
+const full = fullName('Majharul');
+console.log(full);
